@@ -1,0 +1,28 @@
+
+.ql-container {
+    min-height: 100vh;
+    height: 100vh;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+
+}
+  
+.ql-editor {
+    height: 100vh;
+    overflow-y: auto;
+    width: 100%;
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+
+.ql-toolbar {
+    background-color: #edf2fa;
+    border-radius: 24px;
+    z-index: 20;
+    margin-top: 10px;
+    margin-left: 1%;
+    border: none !important;
+    margin-right: 1%;
+}

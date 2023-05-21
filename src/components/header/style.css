@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
+    width: 100%;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #f9fbfd ;
+    /* height: 32px; */
+    /* justify-content: space-evenly; */
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 5px;
+    width: 90%;
+}
+
+.docName{
+    padding: 1px 6px;
+    height: 30px;
+    border: none;
+}
+
+.docNameText{
+    color: #444746;
+    font-weight: 400;
+    font-size: 18px;
+    height: 30px;
+    border: none;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: #f9fbfd ;
+    width: fit-content;
+}
+
+.docNameText:focus{
+    border: 1px solid black;
+    border-radius: 3px;
+    outline: none;
+}
+
+.menuBar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.menuBtns{
+    padding: 2px 7px;
+    margin-top: 8px;
+}
+
+.menuBtns:hover{
+    cursor: pointer;
+    background-color: #edf2fa;
+    border-radius: 3px;
+}
+
+.menuBtnText{
+    text-decoration: none;
+    color: #202124;
+    font-size: 14px;
+}
+
+.end{
+    display: flex;
+    /* flex: 1; */
+    right: 0px;
+    /* width: 100%; */
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    margin-left: 10px;
+    flex-basis: auto;
+    /* flex-wrap: wrap; */
+}
+
+.shareContainer{
+    background-color: #c2e7ff;
+    padding: 9px 18px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+
+.shareContainer:hover{
+    background-color: #b2d7ef;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+#shareText{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001d35;
+    padding-left: 6px;
+}
+
+#services{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    padding-left: 6px;
+    padding-right: 6px;
+    justify-content: center;
+    padding-top: 10px;
+    align-items: center;
+}
+
+#services:hover{
+    border-radius: 50%;
+    background-color: lightgray; 
+}
+
+.menuBtn:hover{
+    cursor: pointer;
+}

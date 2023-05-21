@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Google-Docs-Clone-Aayush/static/css/main.de1b8f8c.css",
+    "main.js": "/Google-Docs-Clone-Aayush/static/js/main.6f7ab15d.js",
+    "static/js/787.59b327fb.chunk.js": "/Google-Docs-Clone-Aayush/static/js/787.59b327fb.chunk.js",
+    "static/media/google-maps.png": "/Google-Docs-Clone-Aayush/static/media/google-maps.dc3b637d7368ffd8c203.png",
+    "index.html": "/Google-Docs-Clone-Aayush/index.html",
+    "main.de1b8f8c.css.map": "/Google-Docs-Clone-Aayush/static/css/main.de1b8f8c.css.map",
+    "main.6f7ab15d.js.map": "/Google-Docs-Clone-Aayush/static/js/main.6f7ab15d.js.map",
+    "787.59b327fb.chunk.js.map": "/Google-Docs-Clone-Aayush/static/js/787.59b327fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de1b8f8c.css",
+    "static/js/main.6f7ab15d.js"
+  ]
+}

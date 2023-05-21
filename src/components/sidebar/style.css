@@ -1,0 +1,23 @@
+.sideItemContainer{
+    width: 40px;
+     height: 40px; 
+     margin-top: 8px;
+     margin-bottom: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 16px;
+}
+
+.line{
+    border-bottom: 1px solid #dadce0;
+    width: 40;
+    margin-top: 30px;
+    margin-right: 16px;
+}
+
+.sideItemContainer:hover{
+    background-color: #dadce0;
+    border-radius: 50%;
+    cursor: pointer;
+}

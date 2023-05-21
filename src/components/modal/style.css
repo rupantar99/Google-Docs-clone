@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    row-gap: 20px;
+    padding-top: 18px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 8px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-item:hover {
+    background-color: #ceddf2;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .modalText {
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+  }

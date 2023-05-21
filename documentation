@@ -1,0 +1,11 @@
+1) This is a Google Docs clone make using React
+
+2) For the rich text editor I have used ReactQuill library
+
+3) You can change the name of the document as well
+
+4) You have a button to share the link
+
+5) A sidebar with few tools is also implemented
+
+6) The rich text-editor has a toolbar and a editor space
